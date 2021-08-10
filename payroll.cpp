@@ -92,7 +92,7 @@ int main()
 			}
 		}
 
-		if (((MONTH == 4) || (MONTH == 6) || (MONTH == 9) || (MONTH == 7) || (MONTH == 11)) && (DAY < 31))
+		if (((MONTH == 4) || (MONTH == 6) || (MONTH == 9) || (MONTH == 11)) && (DAY < 31))
 		{
 			for (int i = 0; i < 14; i++) {
 				if (DAY > 30) {
